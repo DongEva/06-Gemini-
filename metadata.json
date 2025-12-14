@@ -1,0 +1,7 @@
+{
+  "name": "06 烟花粒子交互 Lumière Castle Fireworks 手势绽放烟花",
+  "description": "An interactive 3D-style particle firework generator set against a realistic European castle night scene. Features AI-powered firework design capabilities.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
