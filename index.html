@@ -23,9 +23,11 @@
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "@heroicons/react/24/solid": "https://aistudiocdn.com/@heroicons/react@^2.2.0/24/solid",
     "@heroicons/react/": "https://aistudiocdn.com/@heroicons/react@^2.2.0/",
     "@mediapipe/tasks-vision": "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.8/+esm"
   }
@@ -33,6 +35,12 @@
 </script>
 </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div style="color: #666; font-family: sans-serif; text-align: center; margin-top: 20%; font-size: 14px;">
+        Initializing Arcane Visuals...<br/>
+        <span style="font-size: 12px; opacity: 0.7;">(If screen remains black, ensure you are running this on a local server, not directly from file system)</span>
+      </div>
+    </div>
+    <script type="module" src="./index.tsx"></script>
   </body>
 </html>
